@@ -10,10 +10,10 @@
     <header>
         <h2 class="xodivorce">Xodivorce</h2>
         <nav class="navigation">
-            <a href="#">Home</a>
+            <a href="index.php">Home</a>
             <a href="#">Dashboard</a>
             <a href="#">About us</a>
-            <a href="login.php"><button class="btnLogin-popup">Login</button></a>
+            <button class="btnLogin-popup" onclick="window.location.href='login.php'">Login</button>
         </nav>
     </header>
     <p>Hello, World!</p>

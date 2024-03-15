@@ -9,10 +9,10 @@
     <header>
         <h2 class="xodivorce">Xodivorce</h2>
          <nav class="navigation">
-            <a href="#">Home</a>
+            <a href="index.php">Home</a>
             <a href="#">Dashboard</a>
             <a href="#">About us</a>
-            <button class="btnLogin-popup">Login</button>
+            <button class="btnLogin-popup" onclick="window.location.href='login.php'">Login</button>
         </nav>
     </header>
     <section>
