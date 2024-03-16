@@ -17,9 +17,9 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 98.5%;
+  width: 100%;
   padding: 20px;
-  background: red;
+  background: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,12 +61,13 @@ header {
   background: transparent;
   border: 2px solid #fff;
   font-weight: 500px;
-  margin-left: 40px;
+  margin: 0 40px 0 40px;
   cursor: pointer;
   font-size: 1.1em;
   outline: none;
   border-radius: 6px;
   transition: 0.5s;
+  color: #ffffff;
 }
 .navigation .btnLogin-popup:hover {
   background-color: #fff;
