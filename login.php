@@ -12,7 +12,7 @@
             <a href="index.php">Home</a>
             <a href="#">Dashboard</a>
             <a href="#">About us</a>
-            <button class="btnLogin-popup" onclick="window.location.href='login.php'">Login</button>
+            <button class="btnLogin-popup" onclick="window.location.href='register.php'">Register</button>
         </nav>
     </header>
     <section>
@@ -31,12 +31,12 @@
                         <label for="">Password</label>
                     </div>
                     <div class="forget">
-                        <label for=""><input type="checkbox">Remember me</label>
+                        <label for="Remenber me"><input type="checkbox">Remember me</label>
                         <label><a href="#"> Forget Password</a></label>
                     </div>
                     <button>Log in</button>
-                    <div class="register">
-                        <p>Don't have a account? <a href="#">Register</a></p>
+                    <div class="register" onclick="window.location.href='register.php'">
+                        <p>Don't have an account? <a href="register.php">Register</a></p>
                     </div>
                 </form>
             </div>
