@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="register.css">
-  <link rel="stylesheet" href="terms-of-service.css"> <!-- Add this line to include the terms of service styles -->
-  <link rel="icon" type="image/png" href="assets/images/insta.png">
-  <script src="scripts.js"></script>
   <title>REGISTER</title>
+  <link rel="stylesheet" href="register.css">
+  <link rel="stylesheet" href="terms-of-service.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="icon" type="image/png" href="assets/images/insta.png">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script src="scripts.js"></script>
 </head>
 <body>
     <header>
@@ -38,8 +40,7 @@
                         <label for="">Password</label>
                     </div>
                     <div class="terms_conditions">
-                        <!-- Change the href to point to the terms of service section -->
-                        <label for="terms_conditions"><input type="checkbox" id="terms_conditions"> I have read and agree the <a href="#" onclick="showTerms()">terms & conditions</a></label>
+                        <label for="terms_conditions"><input type="checkbox" id="terms_conditions" onclick="showTerms()"> I have read and agree the <a href="#" onclick="showTerms()">terms & conditions</a></label>
                     </div>
                     <button>Register</button>
                     <div class="register">
@@ -48,40 +49,64 @@
                 </form>
             </div>
         </div>
-        <!-- Container for terms of service section -->
-        <div id="terms-of-service" class="terms-box" style="display: none;">
-            <div class="terms-text">
-                <h2>Terms of Service</h2>
-                <p>Last Edit: 20/03/2024</p>
-                <p>Greetings Users,</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-            <h4>I Agree to the <span> Terms of Service</span> and I read the Privacy and Notice.</h4>
-            <div class="buttonts">
-                <button class="btn red-btn" onclick="acceptTerms()">Accept</button>
-                <button class="btn gray-btn" onclick="declineTerms()">Decline</button>
-            </div>
-        </div>
     </section>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+<div class="wrapper flex_align_justify" id="terms-of-service" style="display:none;">
+  <div class="terms_service">
+      <div class="tc_item tc_head flex_align_justify">
+        <div class="icon flex_align_justify">
+          <ion-icon name="terminal-outline"></ion-icon>
+        </div>
+        <div class="text">
+          <h2>TERMS OF SERVICE</h2>
+          <p>Last updated on September 12 2022</p>
+        </div>
+      </div>
+      <div class="tc_item tc_body">
+        <ol>
+          <li>
+            <h3>Terms of use</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quidem doloribus cumque vero, culpa voluptates dolorum reprehenderit nihil nisi odit necessitatibus voluptate voluptatibus magni ducimus sed accusamus illo nobis veniam.</p>
+          </li>
+          <li>
+            <h3>Intellectual property rights</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quidem doloribus cumque vero, culpa voluptates dolorum reprehenderit nihil nisi odit necessitatibus voluptate voluptatibus magni ducimus sed accusamus illo nobis veniam.</p>
+          </li>
+          <li>
+            <h3>Prohibited activities</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quidem doloribus cumque vero, culpa voluptates dolorum reprehenderit nihil nisi odit necessitatibus voluptate voluptatibus magni ducimus sed accusamus illo nobis veniam.</p>
+          </li>
+          <li>
+            <h3>Termination clause</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quidem doloribus cumque vero, culpa voluptates dolorum reprehenderit nihil nisi odit necessitatibus voluptate voluptatibus magni ducimus sed accusamus illo nobis veniam.</p>
+          </li>
+          <li>
+            <h3>Governing law</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quidem doloribus cumque vero, culpa voluptates dolorum reprehenderit nihil nisi odit necessitatibus voluptate voluptatibus magni ducimus sed accusamus illo nobis veniam.</p>
+          </li>
+        </ol>
+      </div>
+      <div class="tc_item tc_foot flex_align">
+          <button class="decline_btn" onclick="declineTerms()">Decline</button>
+          <button class="accept_btn" onclick="acceptTerms()">Accept</button>
+      </div>
+  </div>
+</div>
+
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script>
         function showTerms() {
-            document.getElementById('terms-of-service').style.display = 'block'; // Show terms of service section
+            document.getElementById('terms-of-service').style.display = 'block'; 
         }
 
         function acceptTerms() {
-            document.getElementById('terms_conditions').checked = true; // Check the checkbox
-            document.getElementById('terms-of-service').style.display = 'none'; // Hide terms of service section
+            document.getElementById('terms_conditions').checked = true;
+            document.getElementById('terms-of-service').style.display = 'none';
         }
         
         function declineTerms() {
-            document.getElementById('terms_conditions').checked = false; // Uncheck the checkbox
-            document.getElementById('terms-of-service').style.display = 'none'; // Hide terms of service section
+            document.getElementById('terms_conditions').checked = false; 
+            document.getElementById('terms-of-service').style.display = 'none';
         }
     </script>
 </body>

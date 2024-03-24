@@ -258,3 +258,10 @@ body {
 .btn:hover {
   opacity: 0.6;
 }
+.terms_conditions {
+  margin: -15px 0 15px;
+  font-size: 0.9em;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
