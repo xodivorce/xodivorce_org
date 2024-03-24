@@ -15,30 +15,30 @@
         </div>
         <div class="text">
           <h2>TERMS OF SERVICE</h2>
-          <p>Last updated on September 12 2022</p>
+          <p>Last updated on October 13, 2023</p>
         </div>
       </div>
       <div class="tc_item tc_body">
         <ol>
           <li>
             <h3>Terms of use</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quidem doloribus cumque vero, culpa voluptates dolorum reprehenderit nihil nisi odit necessitatibus voluptate voluptatibus magni ducimus sed accusamus illo nobis veniam.</p>
+            <p>By accessing and using this website, you agree to abide by these terms and conditions. If you do not agree with any of these terms, you are prohibited from using or accessing this site.</p>
           </li>
           <li>
             <h3>Intellectual property rights</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quidem doloribus cumque vero, culpa voluptates dolorum reprehenderit nihil nisi odit necessitatibus voluptate voluptatibus magni ducimus sed accusamus illo nobis veniam.</p>
+            <p>All materials, including but not limited to text, graphics, logos, images, and software, provided on this website are owned or licensed by the university and are protected by intellectual property laws.</p>
           </li>
           <li>
             <h3>Prohibited activities</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quidem doloribus cumque vero, culpa voluptates dolorum reprehenderit nihil nisi odit necessitatibus voluptate voluptatibus magni ducimus sed accusamus illo nobis veniam.</p>
+            <p>Users are prohibited from engaging in any unlawful, abusive, or harmful activities on this website. This includes but is not limited to spamming, hacking, distributing malware, or violating the privacy of others.</p>
           </li>
           <li>
             <h3>Termination clause</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quidem doloribus cumque vero, culpa voluptates dolorum reprehenderit nihil nisi odit necessitatibus voluptate voluptatibus magni ducimus sed accusamus illo nobis veniam.</p>
+            <p>The university reserves the right to terminate or suspend access to the website at any time without prior notice for any reason, including but not limited to violation of these terms of service.</p>
           </li>
           <li>
             <h3>Governing law</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quidem doloribus cumque vero, culpa voluptates dolorum reprehenderit nihil nisi odit necessitatibus voluptate voluptatibus magni ducimus sed accusamus illo nobis veniam.</p>
+            <p>These terms of service shall be governed by and construed in accordance with the laws of the jurisdiction in which the university is located, without regard to its conflict of law provisions.</p>
           </li>
         </ol>
       </div>
@@ -48,21 +48,5 @@
       </div>
   </div>
 </div>
-<script>
-        function showTerms() {
-            document.getElementById('terms-of-service').style.display = 'block'; 
-        }
-
-        function acceptTerms() {
-            document.getElementById('terms_conditions').checked = true;
-            document.getElementById('terms-of-service').style.display = 'none';
-        }
-        
-        function declineTerms() {
-            document.getElementById('terms_conditions').checked = false; 
-            document.getElementById('terms-of-service').style.display = 'none';
-        }
-    </script>
-
 </body>
 </html>
