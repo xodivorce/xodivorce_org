@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="login.css">
-  <script src="scripts.js"></script>
+  <link rel="stylesheet" href="css/login.css">
   <title>LOG IN</title>
 </head>
 <body>

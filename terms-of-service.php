@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Terms of Service Section In HTML and CSS</title>
-	<link rel="stylesheet" type="text/css" href="terms-of-service.css">
+	<link rel="stylesheet" type="text/css" href="css/terms-of-service.css">
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </head>
 <body>

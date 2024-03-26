@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
   <title>REGISTER</title>
-  <link rel="stylesheet" href="register.css">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="css/register.css">
   <link rel="icon" type="image/png" href="assets/images/insta.png">
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </head>
@@ -38,7 +37,7 @@
                         <label for="">Password</label>
                     </div>
                     <div class="terms_conditions">
-                        <label for="terms_conditions"><input type="checkbox" id="terms_conditions"> I have read and agree the <a href="terms-of-service.php" onclick="showTerms()">terms & conditions</a></label>
+                        <label for="terms_conditions"><input type="checkbox" id="terms_conditions"> I have read and agree the <a href="terms-of-service.php">Terms & Conditions</a></label>
                     </div>
                     <button>Register</button>
                     <div class="register">
