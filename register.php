@@ -6,7 +6,6 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="icon" type="image/png" href="assets/images/insta.png">
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script src="scripts.js"></script>
 </head>
 <body>
     <header>
@@ -50,6 +49,6 @@
         </div>
     </section>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="route.js"></script>
+    <script src="check-terms.js"></script>
 </body>
 </html>
