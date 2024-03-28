@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #0f1829;
+  background-color: white;
   background-position: center;
   background-size: cover;
 }
@@ -29,16 +29,10 @@ header {
   z-index: 99;
 }
 
-.xodivorce {
-  font-size: 2em;
-  color: #f0f8ff;
-  user-select: none;
-}
-
 .navigation a {
   position: relative;
   font-size: 1.1em;
-  color: #f0f8ff;
+  color: black;
   text-decoration: none;
   font-weight: 500;
   margin-left: 40px;
@@ -52,7 +46,7 @@ header {
   bottom: -6px;
   width: 100%;
   height: 3px;
-  background: #fff;
+  background: black;
   border-radius: 5px;
   transform: scaleX(0);
   transition: transform.5s;
@@ -67,7 +61,7 @@ header {
   width: 130px;
   height: 50px;
   background: transparent;
-  border: 2px solid #fff;
+  border: 2px solid black;
   font-weight: 500px;
   margin: 0 40px 0 40px;
   cursor: pointer;
@@ -75,12 +69,12 @@ header {
   outline: none;
   border-radius: 6px;
   transition: 0.5s;
-  color: #ffffff;
+  color: black;
 }
 
 .navigation .btnLogin-popup:hover {
-  background-color: #fff;
-  color: #162938;
+  background-color: black;
+  color: white;
 }
 
 .preloader {
@@ -299,25 +293,25 @@ header {
 }
 
 .box:hover:before {
-  border-color: #f0f8ff;
+  border-color: #262626;
   height: 100%;
   transform: translateX(0);
   transition: 0.3s transform linear, 0.3s height linear 0.3s;
 }
 
 .box:hover:after {
-  border-color: #f0f8ff;
+  border-color: #262626;
   height: 100%;
   transform: translateX(0);
   transition: 0.3s transform linear, 0.3s height linear 0.5s;
 }
 
 button {
-  color: #f0f8ff;
+  color: black;
   text-decoration: none;
   cursor: pointer;
   outline: none;
   border: none;
-  background: #0f182900;
+  background: white;
   backdrop-filter: blur(10px);
 }
