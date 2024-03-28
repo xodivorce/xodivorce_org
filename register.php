@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <h2 class="xodivorce">Xodivorce</h2>
+    <button><span class="box">XODIVORCE</span></button>
     <nav class="navigation">
       <a href="index.php">Home</a>
       <a href="#">Dashboard</a>
