@@ -8,48 +8,50 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </head>
 <body>
-    <header>
-        <h2 class="xodivorce">Xodivorce</h2>
-         <nav class="navigation">
-            <a href="index.php">Home</a>
-            <a href="#">Dashboard</a>
-            <a href="#">About us</a>
-            <button class="btnLogin-popup" onclick="window.location.href='login.php'">Login</button>
-        </nav>
-    </header>
-    <section>
-        <div class="form-box">
-            <div class="form-value">
-                <form action="">
-                    <h2>Register</h2>
-                    <div class="inputbox">
-                        <ion-icon name= "person-outline" ></ion-icon>
-                        <input type="username" required>
-                        <label for="">Username</label>
-                    </div>
-                    <div class="inputbox">
-                        <ion-icon name="mail-outline"></ion-icon>
-                        <input type="email" required>
-                        <label for="">Email</label>
-                    </div>
-                    <div class="inputbox">
-                        <ion-icon name="lock-closed-outline"></ion-icon>
-                        <input type="password" required>
-                        <label for="">Password</label>
-                    </div>
-                    <div class="terms_conditions">
-                        <label for="terms_conditions"><input type="checkbox" id="terms_conditions"> I have read and agree the <strong>Terms & Conditions</strong></label>
-                    </div>
-                    <button>Register</button>
-                    <div class="register">
-                        <p>Already have an account? <a href="login.php">Login</a></p>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
-    <div id="terms_wrapper" class="wrapper">
-  <div class="terms_service">
+  <header>
+    <h2 class="xodivorce">Xodivorce</h2>
+    <nav class="navigation">
+      <a href="index.php">Home</a>
+      <a href="#">Dashboard</a>
+      <a href="#">About us</a>
+      <button class="btnLogin-popup" onclick="window.location.href='login.php'">Login</button>
+    </nav>
+  </header>
+  <section>
+    <div class="form-box">
+      <div class="form-value">
+        <form action="">
+          <h2>Register</h2>
+          <div class="inputbox">
+            <ion-icon name= "person-outline" ></ion-icon>
+            <input type="username" required>
+            <label for="">Username</label>
+          </div>
+          <div class="inputbox">
+            <ion-icon name="mail-outline"></ion-icon>
+            <input type="email" required>
+            <label for="">Email</label>
+          </div>
+          <div class="inputbox">
+            <ion-icon name="lock-closed-outline"></ion-icon>
+            <input type="password" required>
+            <label for="">Password</label>
+          </div>
+          <div class="terms_conditions">
+            <label for="terms_conditions">
+              <input type="checkbox" id="terms_conditions"> I have read and agree the <strong>Terms & Conditions</strong>
+            </label>
+          </div>
+          <button>Register</button>
+          <div class="register">
+            <p>Already have an account? <a href="login.php">Login</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <div id="terms_wrapper" class="wrapper">
+    <div class="terms_service">
       <div class="tc_item tc_head flex_align_justify">
         <div class="icon flex_align_justify">
           <ion-icon name="shield-half-outline"></ion-icon>
@@ -87,8 +89,28 @@
           <button class="decline_btn" onclick="declineTerms()">Decline</button>
           <button class="accept_btn" onclick="acceptTerms()">Accept</button>
       </div>
+    </div>
   </div>
-</div>
+
+  <div class="preloader">
+        <div class="loader">
+            <svg viewBox="0 0 80 80">
+                <circle id="test" cx="40" cy="40" r="32"></circle>
+            </svg>
+        </div>
+        <div class="loader triangle">
+            <svg viewBox="0 0 86 80">
+                <polygon points="43 8 79 72 7 72"></polygon>
+            </svg>
+        </div>
+        <div class="loader">
+            <svg viewBox="0 0 80 80">
+                <rect x="8" y="8" width="64" height="64"></rect>
+            </svg>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/register.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script type="text/javascript" src="js/check-terms.js"></script>
 </body>
