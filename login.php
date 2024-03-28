@@ -6,7 +6,7 @@
 </head>
 <body>
     <header>
-        <button><span class="box">XODIVORCE</span></button>
+        <button onclick="window.location.href='index.php'"><span class="box">XODIVORCE</span></button>
          <nav class="navigation">
             <a href="index.php">Home</a>
             <a href="#">Dashboard</a>

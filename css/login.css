@@ -10,8 +10,7 @@ section {
   align-items: center;
   min-height: 100vh;
   width: 100%;
-
-  background: url("../assets/images/blue.png") no-repeat;
+  background: white;
   background-position: center;
   background-size: cover;
 }
@@ -20,7 +19,7 @@ section {
   width: 400px;
   height: 450px;
   background: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid black;
   border-radius: 20px;
   backdrop-filter: blur(15px);
   display: flex;
@@ -29,21 +28,21 @@ section {
 }
 h2 {
   font-size: 2em;
-  color: #fff;
+  color: black;
   text-align: center;
 }
 .inputbox {
   position: relative;
   margin: 30px 0;
   width: 310px;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid black;
 }
 .inputbox label {
   position: absolute;
   top: 50%;
   left: 5px;
   transform: translateY(-50%);
-  color: #fff;
+  color: black;
   font-size: 1em;
   pointer-events: none;
   transition: 0.5s;
@@ -60,19 +59,19 @@ input:valid ~ label {
   outline: none;
   font-size: 1em;
   padding: 0 35px 0 5px;
-  color: #fff;
+  color: black;
 }
 .inputbox ion-icon {
   position: absolute;
   right: 8px;
-  color: #fff;
+  color: black;
   font-size: 1.2em;
   top: 20px;
 }
 .forget {
   margin: -15px 0 15px;
   font-size: 0.9em;
-  color: #fff;
+  color: black;
   display: flex;
   justify-content: space-between;
 }
@@ -81,7 +80,7 @@ input:valid ~ label {
   margin-right: 3px;
 }
 .forget label a {
-  color: #fff;
+  color: black;
   text-decoration: none;
 }
 .forget label a:hover {
@@ -91,22 +90,23 @@ button {
   width: 100%;
   height: 40px;
   border-radius: 40px;
-  background: #fff;
-  border: none;
+  color: black;
+  border: 2px solid black;
   outline: none;
   cursor: pointer;
   font-size: 1em;
   font-weight: 600;
 }
+
 .register {
   font-size: 0.9em;
-  color: #fff;
+  color: black;
   text-align: center;
   margin: 25px 0 10px;
 }
 .register p a {
   text-decoration: none;
-  color: #fff;
+  color: black;
   font-weight: 600;
 }
 .register p a:hover {
@@ -126,19 +126,13 @@ header {
   z-index: 99;
 }
 
-.xodivorce {
-  font-size: 2em;
-  color: #f0f8ff;
-  user-select: none;
-}
-
 .navigation a {
   position: relative;
   font-size: 1.1em;
-  color: #f0f8ff;
+  color: black;
   text-decoration: none;
   font-weight: 500;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 .navigation a::after {
@@ -149,7 +143,7 @@ header {
   bottom: -6px;
   width: 100%;
   height: 3px;
-  background: #fff;
+  background: black;
   border-radius: 5px;
   transform: scaleX(0);
   transition: transform.5s;
@@ -164,7 +158,7 @@ header {
   width: 130px;
   height: 50px;
   background: transparent;
-  border: 2px solid #fff;
+  border: 2px solid black;
   font-weight: 500px;
   margin: 0 40px 0 40px;
   cursor: pointer;
@@ -172,12 +166,12 @@ header {
   outline: none;
   border-radius: 6px;
   transition: 0.5s;
-  color: #ffffff;
+  color: black;
 }
 
 .navigation .btnLogin-popup:hover {
-  background-color: #fff;
-  color: #162938;
+  background-color: black;
+  color: white;
 }
 
 .preloader {
@@ -201,8 +195,8 @@ header {
   width: 44px;
   height: 44px;
   position: relative;
-  display: inline-block; /* Added */
-  margin: 0 16px; /* Added */
+  display: inline-block;
+  margin: 0 16px;
 }
 
 .loader:before {
@@ -396,25 +390,25 @@ header {
 }
 
 .box:hover:before {
-  border-color: #f0f8ff;
+  border-color: #262626;
   height: 100%;
   transform: translateX(0);
   transition: 0.3s transform linear, 0.3s height linear 0.3s;
 }
 
 .box:hover:after {
-  border-color: #f0f8ff;
+  border-color: #262626;
   height: 100%;
   transform: translateX(0);
   transition: 0.3s transform linear, 0.3s height linear 0.5s;
 }
 
 button {
-  color: #f0f8ff;
+  color: black;
   text-decoration: none;
   cursor: pointer;
   outline: none;
   border: none;
-  background: #0f182900;
+  background: transparent;
   backdrop-filter: blur(10px);
 }

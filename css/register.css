@@ -514,3 +514,6 @@ button {
   background: #0f182900;
   backdrop-filter: blur(10px);
 }
+#login {
+  background-color: black;
+}
