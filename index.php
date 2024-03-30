@@ -13,7 +13,7 @@
             <a href="index.php">Home</a>
             <a href="#">Dashboard</a>
             <a href="#">About us</a>
-            <button class="btnLogin-popup" onclick="window.location.href='login.php'">Login</button>
+            <button class="btnLogin-popup" onclick="window.location.href='singin-up.php'">Sing In</button>
         </nav>
     </header>
     <p>Hello, World!</p>

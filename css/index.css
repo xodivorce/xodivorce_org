@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif; /* Updated font family */
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -19,8 +19,8 @@ body {
 header {
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 30px;
+  width: calc(100% - 40px);
   padding: 20px;
   background: transparent;
   display: flex;
@@ -314,4 +314,5 @@ button {
   border: none;
   background: white;
   backdrop-filter: blur(10px);
+  margin-left: -30px;
 }
