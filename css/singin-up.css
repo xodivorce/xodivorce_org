@@ -8,13 +8,13 @@
 
 body,
 input {
-  font-family: "Poppins", sans-serif;
+  font-family: Nunito, sans-serif;
 }
 
 .container {
   position: relative;
   width: 100%;
-  background-color: #fff;
+  background-color: #f0f8ff;
   min-height: 100vh;
   overflow: hidden;
 }
@@ -69,7 +69,7 @@ form.sign-in-form {
 .input-field {
   max-width: 380px;
   width: 100%;
-  background-color: #f0f0f0;
+  background-color: #e2e7ed93;
   margin: 10px 0;
   height: 55px;
   border-radius: 55px;
@@ -630,5 +630,90 @@ header {
 
 .navigation .btnLogin-popup:hover {
   background-color: black;
-  color: white;
+  color: #f0f8ff;
+}
+
+.terms-box {
+  max-width: 460px;
+  background-color: #111;
+  color: #fff;
+  font-family: "Montserrat";
+  padding: 60px 30px;
+}
+
+.terms-text {
+  padding: 0 20px;
+  height: 400px;
+  overflow-y: auto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #f1f1f1;
+}
+
+.terms-text::-webkit-scrollbar {
+  width: 2px;
+  background-color: #282828;
+}
+
+.terms-text::-webkit-scrollbar-thumb {
+  background-color: #d13639;
+}
+
+.terms-box h2 {
+  text-transform: uppercase;
+}
+
+.terms-box h4 {
+  font-size: 13px;
+  text-align: center;
+  padding: 0 40px;
+}
+
+.terms-box h4 span {
+  color: #d13639;
+}
+
+.buttons {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.btn {
+  height: 50px;
+  width: calc(50% - 6px);
+  border: 0;
+  border-radius: 6px;
+  font-size: 19px;
+  font-weight: 500;
+  color: #fff;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+
+.red-btn {
+  background-color: #d13639;
+}
+
+.gray-btn {
+  background-color: #282828;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+.terms_conditions {
+  margin: -15px 0 15px;
+  font-size: 0.9em;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.terms_conditions label:hover {
+  cursor: pointer;
+}
+
+.terms_conditions label:hover > strong {
+  text-decoration: underline;
 }

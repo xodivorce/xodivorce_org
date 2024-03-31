@@ -13,5 +13,8 @@ sign_in_btn.addEventListener("click", () => {
 document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
     document.querySelector(".preloader").style.display = "none";
-  }, 3000);
+  }, 2000);
 });
+
+const checkbox = document.getElementById("terms_conditions");
+const termsPopup = document.getElementById("terms_wrapper");
