@@ -11,7 +11,7 @@
     <button onclick="window.location.href='index.php'"><span class="box">XODIVORCE</span></button>
         <nav class="navigation">
             <a href="index.php">Home</a>
-            <a href="#">Dashboard</a>
+            <a href="dashboard.php">Dashboard</a>
             <a href="about-us.php">About us</a>
             <button class="btnLogin-popup" onclick="window.location.href='singin-up.php'">Sing In</button>
         </nav>

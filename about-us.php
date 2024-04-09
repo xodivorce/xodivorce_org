@@ -29,14 +29,14 @@
       </p>
     </div>
     <div class="responsive-container-block rightSide">
-      <img class="number1img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET32.jpg">
-      <img class="number2img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d14.png">
-      <img class="number3img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/b245.png">
-      <img class="number5img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Customer supports.png">
+      <img class="number1img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET32.jpg"onclick="window.location.href='event.php'">
+      <img class="number2img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d14.png"onclick="window.location.href='event.php'">
+      <img class="number3img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/b245.png"onclick="window.location.href='event.php'">
+      <img class="number5img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Customer supports.png"onclick="window.location.href='event.php'">
       <iframe allowfullscreen="allowfullscreen" class="number4vid" poster="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/b242.png" src="https://www.youtube.com/embed/qq7dAa0in28?si=71E5_zo_Hyj_IxdT">
       </iframe>
-      <img class="number7img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d51.png">
-      <img class="number6img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d12.png">
+      <img class="number7img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d51.png"onclick="window.location.href='event.php'">
+      <img class="number6img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d12.png"onclick="window.location.href='event.php'">
     </div>
   </div>
 
