@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Institute Events</title> 
+    <title>Events</title> 
     <link rel="stylesheet" href="css/event.css"> 
 </head>
 <body>
@@ -44,7 +44,6 @@
             </div>
         </section>
     </main>
-<<<<<<< HEAD
     <div class="preloader">
         <div class="loader">
             <svg viewBox="0 0 80 80">
@@ -62,8 +61,6 @@
             </svg>
         </div>
     </div>
-=======
->>>>>>> 97c0052e618f4fae6c6dd6efbcc2cbfd47971f92
     <script src="js/event.js"></script> 
 </body>
 </html>
