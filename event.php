@@ -44,6 +44,7 @@
             </div>
         </section>
     </main>
+<<<<<<< HEAD
     <div class="preloader">
         <div class="loader">
             <svg viewBox="0 0 80 80">
@@ -61,6 +62,8 @@
             </svg>
         </div>
     </div>
+=======
+>>>>>>> 97c0052e618f4fae6c6dd6efbcc2cbfd47971f92
     <script src="js/event.js"></script> 
 </body>
 </html>

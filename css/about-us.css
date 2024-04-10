@@ -58,6 +58,7 @@ a:hover {
   font-weight: 900;
   color: #00b2eb;
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .text-blk.btn {
@@ -74,6 +75,7 @@ a:hover {
   position: relative;
   display: flex;
   height: 700px;
+  margin-top: auto;
 }
 
 .number1img,
