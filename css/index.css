@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f0f8ff;
+  background-color: #000;
   background-position: center;
   background-size: cover;
 }
@@ -28,54 +28,6 @@ header {
   justify-content: space-between;
   align-items: center;
   z-index: 99;
-}
-
-.navigation a {
-  position: relative;
-  font-size: 1.1em;
-  color: black;
-  text-decoration: none;
-  font-weight: 500;
-  margin-left: 40px;
-}
-
-.navigation a::after {
-  content: "";
-  position: absolute;
-  transform-origin: left;
-  left: 0;
-  bottom: -6px;
-  width: 100%;
-  height: 3px;
-  background: black;
-  border-radius: 5px;
-  transform: scaleX(0);
-  transition: transform.5s;
-}
-
-.navigation a:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
-}
-
-.navigation .btnLogin-popup {
-  width: 130px;
-  height: 50px;
-  background: transparent;
-  border: 2px solid black;
-  font-weight: 500px;
-  margin: 0 40px 0 40px;
-  cursor: pointer;
-  font-size: 1.1em;
-  outline: none;
-  border-radius: 6px;
-  transition: 0.5s;
-  color: black;
-}
-
-.navigation .btnLogin-popup:hover {
-  background-color: black;
-  color: #f0f8ff;
 }
 
 .preloader {
@@ -99,8 +51,8 @@ header {
   width: 44px;
   height: 44px;
   position: relative;
-  display: inline-block; /* Added */
-  margin: 0 16px; /* Added */
+  display: inline-block;
+  margin: 0 16px;
 }
 
 .loader:before {
@@ -247,66 +199,6 @@ header {
   }
 }
 
-.box {
-  width: 140px;
-  height: auto;
-  float: left;
-  transition: 0.5s linear;
-  position: relative;
-  display: block;
-  overflow: hidden;
-  padding: 15px;
-  text-align: center;
-  margin: 0 5px;
-  background: transparent;
-  text-transform: uppercase;
-  font-weight: 900;
-}
-
-.box:before {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 0;
-  height: 4px;
-  width: 100%;
-  border-bottom: 4px solid transparent;
-  border-left: 4px solid transparent;
-  box-sizing: border-box;
-  transform: translateX(100%);
-}
-
-.box:after {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  border-top: 4px solid transparent;
-  border-right: 4px solid transparent;
-  box-sizing: border-box;
-  transform: translateX(-100%);
-}
-
-.box:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-}
-
-.box:hover:before {
-  border-color: #262626;
-  height: 100%;
-  transform: translateX(0);
-  transition: 0.3s transform linear, 0.3s height linear 0.3s;
-}
-
-.box:hover:after {
-  border-color: #262626;
-  height: 100%;
-  transform: translateX(0);
-  transition: 0.3s transform linear, 0.3s height linear 0.5s;
-}
-
 button {
   color: black;
   text-decoration: none;
@@ -347,7 +239,7 @@ button {
   justify-content: space-between;
   align-items: center;
   background: #111;
-  transition: 0.5s;
+  transition: 1s;
   z-index: 2;
 }
 
@@ -383,7 +275,7 @@ button {
 .text h2 {
   font-size: 5em;
   font-weight: 800;
-  color: #fff;
+  color: #f0f8ff;
   line-height: 1em;
   text-transform: uppercase;
 }
@@ -391,14 +283,14 @@ button {
 .text h3 {
   font-size: 4em;
   font-weight: 700;
-  color: #fff;
+  color: #f0f8ff;
   line-height: 1em;
   text-transform: uppercase;
 }
 
 .text p {
   font-size: 1.1em;
-  color: #fff;
+  color: #f0f8ff;
   margin: 20px 0;
   font-weight: 400;
   max-width: 700px;
@@ -407,7 +299,7 @@ button {
 .text a {
   display: inline-block;
   font-size: 1em;
-  background: #fff;
+  background: #f0f8ff;
   padding: 10px 30px;
   text-transform: uppercase;
   text-decoration: none;
@@ -446,7 +338,6 @@ button {
 .social li a:hover {
   transform: scale(0.5) translateY(-15px);
 }
-
 .menu {
   position: absolute;
   top: 0;
@@ -457,26 +348,21 @@ button {
   justify-content: center;
   align-items: center;
 }
-
 .menu ul {
   position: relative;
-}
-
-.menu ul li {
   list-style: none;
 }
 
 .menu ul li a {
   text-decoration: none;
   font-size: 24px;
-  color: #111;
+  color: #f0f8ffcb;
 }
-
 .menu ul li a:hover {
-  color: #03a9f4;
+  color: #f0f8ff;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 798px) {
   .showcase,
   .showcase header {
     padding: 40px;
