@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;;
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0px 0px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+  
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a::after {
+    content: "";
+    position: absolute;
+    transform-origin: left;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform.5s;
+}
+
+.navigation a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.navigation .btnLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid black;
+    font-weight: 500px;
+    margin: 0 40px 0 40px;
+    cursor: pointer;
+    font-size: 1.1em;
+    outline: none;
+    border-radius: 6px;
+    transition: 0.5s;
+    color: black;
+}
+
+.navigation .btnLogin-popup:hover {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.numStat {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: white;
+    border-radius: 16px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+.numStat div {
+    display: flex;
+    align-items: center;
+}
+
+.numStat div span {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.numStat div p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #464646;
+    margin-left: 10px;
+}
+
+.numStat h3 {
+    font-size: 2.7rem;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.numStat:nth-child(1) div span {
+    background-color: rgba(137, 43, 226, 0.284);
+}
+
+.numStat:nth-child(2) div span {
+    background-color: rgba(206, 127, 0, 0.284);
+}
+
+.numStat:nth-child(3) div span {
+    background-color: rgba(128, 0, 0, 0.284);
+}
+
+.numStat:nth-child(4) div span {
+    background-color: rgba(43, 164, 101, 0.284);
+}
+
+.fa-user-graduate {
+    color: rgb(137, 43, 226);
+}
+
+.fa-user-tie {
+    color: rgb(206, 127, 0);
+}
+
+.fa-book {
+    color: rgb(128, 0, 0);
+}
+
+.fa-sack-dollar {
+    color: rgb(43, 164, 101);
+}
+
+.mainControls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+}
