@@ -11,9 +11,9 @@
     <header>
       <nav class="navigation">
         <a href="index.php">Home</a>
-        <a href="#">Dashboard</a>
-        <a href="#">About us</a>
-        <button class="btnLogin-popup" onclick="window.location.href='singin-up.php'">Sing in</button>
+        <a href="dashboard.php">Dashboard</a>
+        <a href="about-us.php">About us</a>
+        <button class="btnLogin-popup" onclick="window.location.href='signin-up.php'">Sing in</button>
       </nav>
     </header>
 
