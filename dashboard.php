@@ -10,10 +10,10 @@
 <body>
     <header>
       <nav class="navigation">
-        <a href="index.php">Home</a>
-        <a href="dashboard.php">Dashboard</a>
-        <a href="about-us.php">About us</a>
-        <button class="btnLogin-popup" onclick="window.location.href='signin-up.php'">Sing in</button>
+        <a href="index.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="about-us.html">About us</a>
+        <button class="btnLogin-popup" onclick="window.location.href='signin-up.html'">Sing in</button>
       </nav>
     </header>
     <div class="container">
