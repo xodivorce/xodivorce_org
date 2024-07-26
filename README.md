@@ -1,8 +1,8 @@
-# [Xodivorce - Organization Website](https://www.xodivorce.org)
+# [Xodivorce - Organization Website](https://github.com/xodivorce/xodivorce_org?tab=readme-ov-file)
 
 ### Welcome to XODIVORCE.ORG - deveoped by [@xodivorce](https://instagram.com/xodivorce) ✨
 [![status](https://img.shields.io/badge/status-active-brightgreen.svg?style=flat)](https://github.com/xodivorce/xodivorce-portfolio/)
-[![version](https://img.shields.io/badge/version-v7.3.7-yellow.svg?style=flat)](https://github.com/xodivorce/xodivorce-portfolio/)
+[![version](https://img.shields.io/badge/version-v7.3.8-yellow.svg?style=flat)](https://github.com/xodivorce/xodivorce-portfolio/)
 [![PRs](https://img.shields.io/badge/PRs-welcome-blue.svg?style=flat)](https://github.com/xodivorce/xodivorce-portfolio/)
 <br></br>
 
