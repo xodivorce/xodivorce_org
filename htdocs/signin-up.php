@@ -7,16 +7,16 @@
       src="https://kit.fontawesome.com/64d58efce2.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/singin-up.css" />
+    <link rel="stylesheet" href="./assets/css/singin-up.css" />
     <title>Sign in & Sign up Form</title>
   </head>
   <body>
     <header>
       <nav class="navigation">
-        <a href="index.html">Home</a>
-        <a href="dashboard.html">Dashboard</a>
-        <a href="about-us.html">About us</a>
-        <button class="btnLogin-popup" onclick="window.location.href='signin-up.html'">Sing in</button>
+        <a href="index.php">Home</a>
+        <a href="dashboard.php">Dashboard</a>
+        <a href="about-us.php">About us</a>
+        <button class="btnLogin-popup" onclick="window.location.href='signin-up.php'">Sing in</button>
       </nav>
     </header>
     <div class="container">
@@ -171,7 +171,7 @@
     </div>
   </div>
 
-     <script type="text/javascript" src="js/singin-up.js"></script>
+     <script type="text/javascript" src="./assets/js/singin-up.js"></script>
 
   </body>
 </html>

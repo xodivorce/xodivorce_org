@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js" integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="css/dashboard.css" />
+    <link rel="stylesheet" href="./assets/css/dashboard.css" />
 </head>
 <body>
     <header>
       <nav class="navigation">
-        <a href="index.html">Home</a>
-        <a href="dashboard.html">Dashboard</a>
-        <a href="about-us.html">About us</a>
-        <button class="btnLogin-popup" onclick="window.location.href='signin-up.html'">Sing in</button>
+        <a href="index.php">Home</a>
+        <a href="dashboard.php">Dashboard</a>
+        <a href="about-us.php">About us</a>
+        <button class="btnLogin-popup" onclick="window.location.href='signin-up.php'">Sing in</button>
       </nav>
     </header>
     <div class="container">

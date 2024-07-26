@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
     <title>xodivorce_org</title>
 </head>
 <body>
@@ -13,10 +13,10 @@
     </header>
     <div class="menu">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="dashboard.html">Dashboard</a></li>
-            <li><a href="about-us.html">About us</a></li>
-            <li><a href="signin-up.html">Sign in</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="dashboard.php">Dashboard</a></li>
+            <li><a href="about-us.php">About us</a></li>
+            <li><a href="signin-up.php">Sign in</a></li>
         </ul>
     </div>
     <section class="showcase">
@@ -25,7 +25,7 @@
         <div class="text">
             <h2>Connect Your Code to the World</h2>
             <p>Join us in decoding the future of technology and shaping tomorrow's digital landscape.</p>
-            <a href="about-us.html">About Us →</a>
+            <a href="about-us.php">About Us →</a>
         </div>
         <ul class="social">
             <li><a href="https://www.facebook.com/xodivorce.1"><img src="https://i.ibb.co/x7P24fL/facebook.png" alt="Facebook"></a></li>
@@ -50,6 +50,6 @@
             </svg>
         </div>
     </div>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="./assets/js/index.js"></script>
 </body>
 </html>
